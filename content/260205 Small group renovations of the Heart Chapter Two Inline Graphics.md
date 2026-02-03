@@ -4,7 +4,7 @@ In chapter two of his book, Willard uses the Shema (as quoted by Jesus in Luke 1
 
 In essence, Willard's structure is listed below where the soul is the integrator of all the parts. Without getting into the details, it may be possible to support the soul superstructure from a Hebrew standpoint, but stands in contrast with the theology of the Chruch at the time of Jesus Christ, and the theology that developed by the early church forefathers.
 
-In Willard's framework the outside layer is the sould, and it has multiple layers until you get to the will/heart/spirit, which he says are the same thing.
+In Willard's framework the outside layer is the soul, and it has multiple layers until you get to the will/heart/spirit, which he says are the same thing.
 
 ```Text
                  ┌───────────────────────────┐
