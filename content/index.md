@@ -31,7 +31,12 @@ This site is a simple hub for members of the Stephenson Group to:
 If you are curious about Christianity, exploring faith, or looking for a church community in the San Jose area, we encourage you to visit WestGate Church.
 
 ---
+## How To Navigate The Page
 
+
+![[260203 Website Navigation.webp]]
+
+---
 ## Visit WestGate Church ⛪
 
 WestGate Church has multiple congregations in the South Bay, including:
