@@ -1,4 +1,4 @@
-#### Problem Statement:  Willard's New Framework
+#### Problem Statement:  Church History Before Willard Model
 
 Dallas Willard creates a structure which has many thoughtful and good ideas but this stands in contrast with what the traditional historical teachings of the Church.  This note is to simply provide a framework for discussing the historic views of the Church to allow a thoughtful engagement with Willard's system.
 
