@@ -1,4 +1,6 @@
-#### Problem Statement:  Dallas Willard creates a structure which has many thoughtful and good ideas but this stands in contrast with what the traditional historical teachings of the Church.  This note is to simply provide a framework for discussing the historic views of the Church to allow a thoughtful engagement with Willard's system.
+#### Problem Statement:  Willard's New Framework
+
+Dallas Willard creates a structure which has many thoughtful and good ideas but this stands in contrast with what the traditional historical teachings of the Church.  This note is to simply provide a framework for discussing the historic views of the Church to allow a thoughtful engagement with Willard's system.
 
 In chapter two of his book, Willard uses the Shema (as quoted by Jesus in Luke 10:25‑28) as the structural center of his whole argument about what a human being is and what spiritual formation must aim at.  He then creates a system but it stands in contrast to the traditional views covered in most churches and theologies. This note is to help understand the common viewpoint, and allow the group to contrast this to Willard's viewpoint to examine where they overlap and how they differ.
 
