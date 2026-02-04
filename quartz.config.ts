@@ -1,4 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
+
 import * as Plugin from "./quartz/plugins"
 
 /**
@@ -6,6 +7,7 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Westgate Small Group",
@@ -53,6 +55,7 @@ const config: QuartzConfig = {
       },
     },
   },
+
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
@@ -68,7 +71,10 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
+      Plugin.TableOfContents({
+        maxDepth: 4,   // include #### headings in TOC
+        minEntries: 1, // show TOC even with a single heading
+      }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
