@@ -37,7 +37,22 @@ Add in a little plug-in magic and you can massage tables into graphs for you to 
 | Q2 FY26 | 2825                   | 3017               |
 ^260129STXvWDCRev
 
+## Native Mermaid Support
+
+Mermaid is a package that does standard graphing, and you can render to your static Quartz webpages to share with others.  This shows the table above with Seagate bars, and WDC as a line.
+
+```mermaid
+xychart-beta
+    title "Seagate vs WDC Revenue ($M)"
+    x-axis ["Q2 FY25", "Q3 FY25", "Q4 FY25", "Q1 FY26", "Q2 FY26"]
+    y-axis "Revenue ($M)" 2000 --> 3100
+    bar  "Seagate" [2325, 2160, 2444, 2629, 2825]
+    line "WDC"     [2409, 2294, 2605, 2818, 3017]
+```
+
 ## 🔌Cool Plug-ins like "Charts" by phibr0 to graph the table
+
+You can really do much better charts with the charts plug-in, but unfortunately it doesn't natively render to the web.  So, you only get the following, but shows nicely in Obsidian proper. 
 
 <div align="center" style="font-size:1.5em;">
 
