@@ -1,0 +1,13 @@
+{
+  "name": "strategicwebrefs",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "quartz build --serve",
+    "build": "quartz build",
+    "sync": "quartz sync"
+  },
+  "dependencies": {
+    "quartz": "^4.0.0"
+  }
+}
