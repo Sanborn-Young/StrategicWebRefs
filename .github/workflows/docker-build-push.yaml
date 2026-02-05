@@ -54,7 +54,7 @@ jobs:
           tags: |
             type=raw,value=sha-${{ env.GITHUB_SHA_SHORT }}
           labels: |
-            org.opencontainers.image.source="https://github.com/${{ github.repository_owner }}/quartz"
+            org.opencontainers.image.source="https://github.com/${{ github.repository }}"
       - name: Extract metadata tags and labels for main, release or tag
         if: github.event_name != 'pull_request'
         id: meta
@@ -71,7 +71,7 @@ jobs:
             type=raw,value=sha-${{ env.GITHUB_SHA_SHORT }}
           labels: |
             maintainer=${{ github.repository_owner }}
-            org.opencontainers.image.source="https://github.com/${{ github.repository_owner }}/quartz"
+            org.opencontainers.image.source="https://github.com/${{ github.repository }}"
 
       - name: Build and push Docker image
         id: build-and-push
