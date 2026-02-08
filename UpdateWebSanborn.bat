@@ -22,14 +22,14 @@ echo   ------------------------
 echo   🧑 user.name  : %GITUSER%
 echo   📧 user.email : %GITEMAIL%
 echo.
-echo   🎯 Expected Identity (sanborn-Young)
+echo   🎯 Expected Identity (sanborn-young)
 echo   -----------------------------------
 echo   🧑 user.name  : %EXPECTED_USER%
 echo   📧 user.email : %EXPECTED_EMAIL%
 echo.
 echo   📋 Menu Options
 echo   ------------------------
-echo   1️⃣  Set LOCAL git config to sanborn-Young identity
+echo   1️⃣  Set LOCAL git config to sanborn-young identity
 echo   2️⃣  Open Notepad
 echo   3️⃣  Run npx quartz sync
 echo   4️⃣  Refresh Git identity
@@ -49,7 +49,7 @@ goto menu
 
 :setlocal
 echo.
-echo ⚙️  Setting LOCAL git config to sanborn-Young identity...
+echo ⚙️  Setting LOCAL git config to sanborn-young identity...
 git config --local user.name "%EXPECTED_USER%"
 git config --local user.email "%EXPECTED_EMAIL%"
 echo ✔️  Local git identity updated.
@@ -66,7 +66,8 @@ goto menu
 :quartzsync
 echo.
 echo 🔄 Running Quartz sync...
-npx quartz sync
+call npx quartz sync
+echo.
 echo ✔️  Sync complete.
 pause
 goto menu
